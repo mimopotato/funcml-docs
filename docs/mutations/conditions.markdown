@@ -4,6 +4,14 @@ parent: User guide
 title: Conditions
 has_toc: true
 ---
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 You can decide to render a block or not depending on conditions state. A condition is a function of comparison return a boolean value.
 

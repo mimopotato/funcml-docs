@@ -6,6 +6,10 @@ layout: home
 title: Home
 nav_order: 1
 ---
+[![Gem Version](https://badge.fury.io/rb/funcml-core.svg)](https://badge.fury.io/rb/funcml-core)
+[![GitHub version](https://badge.fury.io/gh/mimopotato%2Ffuncml-core.svg)](https://badge.fury.io/gh/mimopotato%2Ffuncml-core)
+
+
 Welcome to the Funcml documentation!
 
 Funcml is a **data-structure framework** developed in _Ruby_. This project consists of an implementation of functions based on overrides of Ruby's primitive classes (Hash, Array, String, Integer, etc.) called "_funcml-core_" and a command-line tool, "_funcml-cli_", which uses _funcml-core_.

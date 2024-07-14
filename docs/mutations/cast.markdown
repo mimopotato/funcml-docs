@@ -4,6 +4,14 @@ parent: User guide
 title: Types cast
 has_toc: true
 ---
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 Funcml knows how to cast data types using functions.
 
