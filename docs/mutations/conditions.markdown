@@ -86,6 +86,24 @@ Funcml includes a bunch of comparisons, working with string, integers, arrays or
 * **match: [a, b]** returns true if a match a regex set in b
 * **unmatch: [a, b]** returns true if a doesn't match a regex set in b.
 
+#### Usage example
+
+```
+key:
+  _if:
+    - {eq: [1, 1]}
+    - {gt: [2, 1]}
+    - {ge: [2, 2]}
+    - {lt: [1, 2]}
+    - {le: [1, 1]}
+    - {in: [a, [a, b, c]]}
+    - {present: [1]}
+    - {null: [null]}
+    - {match: [test, "^test$]}
+    - {unmatch: [test, "^error$"]}
+  everything_matches: true
+```
+
 #### OR
 
 Or is a condition returning true if at least on of its sub-condition is met:
