@@ -79,3 +79,21 @@ will be rendered as:
 ```yaml
 key: '{"subkey":"value"}'
 ```
+
+### _fromJson
+
+_json returns a data-structure from a JSON string.
+
+**Usage**
+```yaml
+key:
+  _fromJson: |
+    '{"subkey": "value"}'
+```
+
+will be rendered as:
+
+```yaml
+key:
+  subkey: value
+```
