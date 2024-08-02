@@ -83,7 +83,8 @@ Funcml includes a bunch of comparisons, working with string, integers, arrays or
 * **in: [a, [b, c, d]]** returns true if a is one of b, c or d.
 * **present: [a]** returns true if a exists (typically a variable not returning null)
 * **null: [a]** returns true if a does not exist (typically a variable set to null or unset)
-
+* **match: [a, b]** returns true if a match a regex set in b
+* **unmatch: [a, b]** returns true if a doesn't match a regex set in b.
 
 #### OR
 
