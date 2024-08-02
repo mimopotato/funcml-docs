@@ -62,3 +62,20 @@ will be rendered as:
 ```yaml
 key: 1.0
 ```
+
+### _json
+
+_json returns its structure in JSON.
+
+**Usage**
+```yaml
+key:
+  _json:
+    subkey: value
+```
+
+will be rendered as:
+
+```yaml
+key: '{"subkey":"value"}'
+```
