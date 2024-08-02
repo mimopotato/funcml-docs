@@ -19,7 +19,7 @@ Funcml knows how to cast data types using functions.
 
 _string takes an integer, a float, a dictionary (Hash) or an Array and stringifies it.
 
-**Usage*
+**Usage**
 ```yaml
 key:
   _string: 1
@@ -35,7 +35,7 @@ key: "1"
 
 _int takes a string or a float and returns a unsigned integer.
 
-**Usage*
+**Usage**
 ```yaml
 key:
   _int: "1"
@@ -51,7 +51,7 @@ key: 1
 
 _float takes a string or an integer and returns a float.
 
-**Usage*
+**Usage**
 ```yaml
 key:
   _float: "1"
