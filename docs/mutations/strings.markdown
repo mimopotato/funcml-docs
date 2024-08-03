@@ -34,3 +34,50 @@ will be rendered as:
 ```yaml
 key: "a.z.c"
 ```
+### _upcase
+
+_upcase transforms its value to a upcase string.
+
+**Usage**
+```yaml
+key:
+  _upcase: abc
+```
+
+will be rendered as:
+
+```yaml
+key: ABC
+```
+
+### _downcase
+
+_downcase transforms its value to a downcase string.
+
+**Usage**
+```yaml
+key:
+  _downcase: ABC
+```
+
+will be rendered as:
+
+```yaml
+key: abc
+```
+
+### _capitalize
+
+_capitalize capitalizes its value
+
+**Usage**
+```yaml
+key:
+  _capitalize: abc
+```
+
+will be rendered as:
+
+```yaml
+key: Abc
+```
