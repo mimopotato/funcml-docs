@@ -99,3 +99,24 @@ key:
   - current_index: 1
   - current_index: 2
 ```
+
+### _map
+
+_map returns an array of mutated values using a no-argument function call.
+
+**Usage**
+
+```yaml
+key:
+  _map:
+    items: [a, b, c]
+    call: _upcase
+```
+
+Will be rendered as
+
+```yaml
+key:
+  - A
+  - B
+  - C
