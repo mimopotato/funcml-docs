@@ -15,11 +15,11 @@ has_toc: true
 
 funcml-core can leverage cryptographic functions.
 
-### _sha1sum
+### __sha1sum_
 
 Returns the sum of a string as sha1sum.
 
-*Usage*
+**Usage**
 ```yaml
 key:
   _sha1sum: "string"
@@ -28,6 +28,21 @@ key:
 will be rendered as:
 ```yaml
 key: ecb252044b5ea0f679ee78ec1a12904739e2904d
+```
+
+### _md5sum
+
+Returns the sum of a string as md5.
+
+**Usage**
+```yaml
+key:
+  _md5sum: "test"
+```
+
+will be rendered as:
+```yaml
+key: 098f6bcd4621d373cade4e832627b4f6
 ```
 
 
